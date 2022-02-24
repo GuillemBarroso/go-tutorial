@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Enter a number: ")
+	fmt.Print("Enter a temperature in Fahrenheit: ")
 	var input float64
 	fmt.Scanf("%f", &input)
 
